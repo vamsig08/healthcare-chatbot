@@ -1,0 +1,17 @@
+version: "3.1"
+intents:
+  - ask_symptom
+  - request_medicine
+entities:
+  - SYMPTOM
+slots:
+  SYMPTOM:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: SYMPTOM
+actions:
+  - action_diagnose
+responses:
+  utter_suggest_medicine:
+  - text: "For {SYMPTOM}, you might try over-the-counter options like ibuprofen or acetaminophen. Consult a doctor for specifics!"

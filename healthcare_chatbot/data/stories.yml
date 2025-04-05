@@ -1,0 +1,23 @@
+version: "3.1"
+stories:
+- story: diagnose symptom
+  steps:
+  - intent: ask_symptom
+    entities:
+    - SYMPTOM: fever
+  - action: action_diagnose
+  - action: action_listen
+- story: suggest medicine
+  steps:
+  - intent: request_medicine
+    entities:
+    - SYMPTOM: fever
+  - action: utter_suggest_medicine
+  - action: action_listen
+- story: diagnose rash
+  steps:
+  - intent: ask_symptom
+    entities:
+    - SYMPTOM: rash
+  - action: action_diagnose
+  - action: action_listen
