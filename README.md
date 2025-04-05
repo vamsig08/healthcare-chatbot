@@ -30,4 +30,4 @@ This project is an **educational healthcare chatbot** built using Rasa, designed
    ```bash
    python3 -m venv venv
    source venv/bin/activate
-   pip install -r requirements.txt  # Create this if not already present
+   pip install -r requirements.txt  
