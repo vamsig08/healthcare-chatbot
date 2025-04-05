@@ -13,7 +13,7 @@ This project is an **educational healthcare chatbot** built using Rasa, designed
 - **Python 3.10**: Core programming language.
 - **Rasa**: Open-source framework for building conversational AI.
 - **SpaCy**: Used implicitly by Rasa for NLP tasks.
-- **Kaggle**: Source of healthcare dataset for training (e.g., `kaggle_data.csv`).
+- **Kaggle**: Source of healthcare dataset for training.
 
 ## Project Structure
 - `config.yml`: Rasa configuration (pipeline and policies).
