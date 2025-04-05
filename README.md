@@ -1,4 +1,4 @@
-# Healthcare Chatbot
+# Healthcare Chatbot Prototype
 
 ## Overview
 This project is an **educational healthcare chatbot** built using Rasa, designed to assist users by diagnosing symptoms and suggesting basic over-the-counter remedies. It leverages a dataset from Kaggle to inform its responses, providing a simple, interactive way to explore healthcare-related queries. The bot is intended for learning purposes and not as a substitute for professional medical advice.
