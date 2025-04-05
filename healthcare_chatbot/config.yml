@@ -1,14 +1,14 @@
 version: "3.1"
-language: "en"  # Added mandatory language parameter
+language: "en"  
 pipeline:
 - name: WhitespaceTokenizer
 - name: CountVectorsFeaturizer
 - name: DIETClassifier
-  epochs: 50  # Updated as per your change
+  epochs: 50  
   entity_recognition: true
   intent_classification: true
 policies:
 - name: MemoizationPolicy
 - name: TEDPolicy
-  epochs: 25  # Updated as per your change
+  epochs: 25  
 assistant_id: 20250404-144355-forward-percussion
